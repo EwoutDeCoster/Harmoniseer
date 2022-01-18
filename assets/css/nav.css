@@ -1,0 +1,13 @@
+.navbar-toggler:hover {
+  color: black;
+  border: 1px solid rgba(128, 128, 128, 0.062);
+  border-radius: 30px;
+}
+
+.navbar-toggler:focus {
+  color: black !important;
+  border: 1px solid rgba(128, 128, 128, 0.062) !important;
+  border-radius: 30px !important;
+  box-shadow: none !important;
+}
+

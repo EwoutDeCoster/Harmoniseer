@@ -6,10 +6,6 @@ input {
   border-radius: 10px !important;
 }
 
-button:hover {
-  background-color: #2b6452 !important;
-}
-
 a {
   text-decoration: none;
   color: black;
