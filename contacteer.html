@@ -27,7 +27,9 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Alex+Brush&amp;display=swap">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Allura&amp;display=swap">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Arizonia&amp;display=swap">
+    <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css">
     <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/fonts/fontawesome5-overrides.min.css">
     <link rel="stylesheet" href="assets/css/contact.css">
     <link rel="stylesheet" href="assets/css/dh-row-titile-text-image-right-1.css">
     <link rel="stylesheet" href="assets/css/ebs-contact-form-1.css">
@@ -38,6 +40,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
     <link rel="stylesheet" href="assets/css/index.css">
     <link rel="stylesheet" href="assets/css/nav.css">
+    <link rel="stylesheet" href="assets/css/Scroll-To-Top.css">
     <link rel="stylesheet" href="assets/css/scroll.css">
     <link rel="stylesheet" href="assets/css/Seo-simples-de-etapas-em-BS5---Simple-section-of-steps-in-BS5.css">
 </head>
@@ -66,16 +69,19 @@
                         <form id="my-form" data-bss-recipient="0ebc8bccd866a0e01093f00cc149395b" data-bss-subject="Harmoniseer Contact Form" data-bss-loading-message="Verzenden..." data-bss-success-title="Gelukt!" data-bss-success-message="Je bericht is succesvol verzonden." data-bss-error-title="Oops..." data-bss-error-message="Er ging iets fout." data-bss-filesize-message="Bestand is te groot." data-bss-empty-form-message="Vul de vereiste velden in en probeer opnieuw." data-bss-close="Sluit">
                             <div class="form-group mb-3"><label class="form-label visually-hidden" for="firstname">First Name</label><input class="form-control" type="text" id="firstname" name="voornaam" placeholder="Voornaam" autofocus=""></div>
                             <div class="form-group mb-3"><label class="form-label visually-hidden" for="lastname">Last Name</label><input class="form-control" type="text" id="lastname" name="naam" placeholder="Naam"></div>
-                            <div class="form-group mb-3"><label class="form-label visually-hidden" for="phonenumber">Phone Number</label><input class="form-control" type="tel" id="phonenumber" name="telefoon" required="" placeholder="Telefoon"></div>
-                            <div class="form-group mb-3"><label class="form-label visually-hidden" for="email">Email Address</label><input class="form-control" type="text" id="email" name="email" required="" placeholder="E-mail"></div>
-                            <div class="form-group mb-3"><label class="form-label visually-hidden" for="messages">Last Name</label><textarea class="form-control" id="msg" name="Bericht" required="" placeholder="Bericht" rows="8"></textarea></div><button class="btn btn-lg grnbtn" id="form-btn" type="submit" style="border-radius: 10px;background: #00412c;color: rgb(255,255,255);margin-top: 15px;width: 96.797px;">SEND </button>
+                            <div class="form-group mb-3"><label class="form-label visually-hidden" for="phonenumber">Phone Number</label><input class="form-control" type="tel" id="phonenumber" name="telefoon" required="" placeholder="Telefoon" minlength="9"></div>
+                            <div class="form-group mb-3"><label class="form-label visually-hidden" for="email">Email Address</label><input class="form-control" type="text" id="email" name="email" required="" placeholder="E-mail"></div><select class="form-select" id="selectr" style="border-radius: 10px;border-width: 1px;border-color: #ced4da;padding: 1px;margin-bottom: 15px;height: 35px;">
+                                <option value="1">Opruimsessie</option>
+                                <option value="2">Adviesgesprek</option>
+                            </select>
+                            <div class="form-group mb-3"><label class="form-label visually-hidden" for="messages">Last Name</label><textarea class="form-control" id="msg" name="Bericht" placeholder="Bericht" rows="8"></textarea></div><button class="btn btn-lg grnbtn" id="form-btn" type="submit" style="border-radius: 10px;background: #00412c;color: rgb(255,255,255);margin-top: 15px;width: 96.797px;">Verstuur</button>
                         </form>
                     </div>
                     <div class="col-12 col-sm-6 col-md-6" id="contact-box">
                         <div class="info-box"><i class="fa fa-map-marker my-info-icons"></i><a href="https://www.google.com/maps/dir//Kouter+52,+9810+Nazareth/@50.9571384,3.6332763,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x47c372acc010add1:0x843b747011c3f058!2m2!1d3.635465!2d50.957135" target="_blank"><span class="text-uppercase" style="border-color: #00412c;color: #2b6452;font-weight: bold;">adres: </span><span>Kouter 52, 9810 Eke<br></span></a></div>
                         <div class="info-box"><i class="fa fa-envelope my-info-icons"></i><a href="mailto:info@harmoniseer.be" target="_blank"><span class="text-uppercase" style="border-color: #00412c;color: #2b6452;font-weight: bold;">E-mail: </span><span>info@harmoniseer.be</span></a></div>
                         <div class="info-box"><i class="fa fa-phone-square my-info-icons"></i><a href="tel:0475739169" target="_blank"><span class="text-uppercase" style="border-color: #00412c;color: #2b6452;font-weight: bold;">Telefoon: </span><span>0475739169<br></span></a></div>
-                        <div><iframe allowfullscreen="" frameborder="0" loading="lazy" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyDDhxB175jw5NIyS_bMEmCHaEjrx9zXI64&amp;q=Kouter+52+eke&amp;zoom=10.5" width="100%" height="400" style="max-height: 310px;border-radius: 10px;max-width: 500px;"></iframe></div>
+                        <div><img style="max-width: 60%;min-width: 50%;" src="assets/img/512.png"></div>
                     </div>
                 </div>
             </div>
