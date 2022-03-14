@@ -13,7 +13,7 @@
 /* Handle */
 
 ::-webkit-scrollbar-thumb {
-  background: #c9c9c9;
+  background: rgb(43,100,82);
   border-radius: 3px;
   transition: all 0.3s ease 0s;
 }
@@ -21,7 +21,7 @@
 /* Handle on hover */
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #a7a7a7;
+  background: rgb(23,80,62);
   transition: all 0.3s ease 0s;
 }
 
